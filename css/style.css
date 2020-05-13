@@ -1,0 +1,50 @@
+:root {
+    --base: #ffc600;
+    --spacing: 10px;
+    --blur: 10px;
+    --margins: 20px;
+}
+
+img {
+    height: 400px;
+    padding: var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+    margin: var(--margins);
+    border-radius: 50px;
+}
+
+.hl {
+    color: var(--base);
+}
+
+  /*
+      misc styles, nothing to do with CSS variables
+    */
+
+    body {
+        text-align: center;
+        background-image: url('../img/tropical.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: right;
+        color: white;
+        font-family: 'helvetica neue', sans-serif;
+        font-weight: 100;
+        font-size: 50px;
+        font-family: 'Balsamiq Sans', cursive;
+      }
+
+      .container {
+          max-width: 100%;
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+      }
+      .controls {
+        margin-bottom: 50px;
+      }
+  
+      input {
+        width: 100px;
+      }
